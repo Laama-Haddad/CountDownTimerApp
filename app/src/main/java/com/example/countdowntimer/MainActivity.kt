@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
     val REMAINING_TIME = "remaining time"
     val TITLE = "title"
-    val START_TIME_IN_MILLIS: Long = 1 * 60 * 1000
+    val START_TIME_IN_MILLIS: Long = 25 * 60 * 1000
     var remainingTime: Long = START_TIME_IN_MILLIS
     var timer: CountDownTimer? = null
     var isTimerRunning = false
